@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>P02 - Step 01 Check-in</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="img">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="main_header">
+      <nav class="main_nav">
+        
+      <a href="style_guide.html">Style Guide</a >
+       <a href="sitemap.html">Sitemap</a>  
+      <a href="wireframes.html">Wireframes</a >
+
+  <a href="ciation.html">Ciation</a >
+</nav>
+</div>
+<div class="second_header">
+
+</div>
+<section id="BasicInteractiveElements">
+<h1>Basic Interactive elements</h1>
+<h2>1. an in-text link</h2>
+<a  class="inText"  href="">Flame Earrings</a>
+<h2>sample code:</h2>
+&lt;a href=""&gt;Flame Earrings&lt;/a&gt;
+<h2>2. a call to action button</h2>
+<button  class="add_button"  type="button" >Add to Cart</button>
+<h2>sample code:</h2>
+&lt;button  class="add_buttin"  type="button" &gt;Add to Cart&lt;/button&gt;
+<h2>3. a submit and reset button for forms</h2>
+<button  class="submit_button"  type="button" >Submit</button>
+<h2>sample code:</h2>
+&lt;button  class="submit_butti"  type="button" &gt;Submit&lt;/button&gt;
+<h2>4. a text input field and a label</h2>
+<label for="emailInput">Email:</label>
+<input type="text" id="emailInput" name="emailInput">
+<h2>sample code:</h2>
+<p>    &lt;label for="emailInput"&gt;Email:&lt;/label&gt; </p>
+<p>    &lt;input type="text" id="emailInput" name="emailInput"&gt;</p>
+<h2>5. website colour swatches</h2>
+<div class="colour_swatches4" >#FEEBEB</div>
+<div class="colour_swatches1" >#EBCA94</div>
+<div class="colour_swatches2" >#FDFBFB</div>
+<div class="colour_swatches3" >#272727</div>
+<h2>sample code:</h2>
+&lt;div class="colour_swatches4" &gt;#FEEBEB&lt;/div&gt; 
+&lt;div class="colour_swatches1" &gt;#EBCA94&lt;/div&gt; 
+&lt;div class="colour_swatches2" &gt;#FDFBFB&lt;/div&gt;
+&lt;div class="colour_swatches3" &gt;#272727&lt;/div&gt;
+</section>
+<section id="TextStyling">
+<h1 >Text styling</h1>
+<h2>sample code:</h2>
+<h2>1. at least three levels of headings</h2>
+<h1 id="logo">Melody</h1>
+<h2>sample code:</h2>
+&lt;h1 id="logo" &gt;Melody&lt;/h1&gt;
+<h3>Shop</h3>
+<h3>sample code:</h3>
+&lt;h3&gt;Shop&lt;/h3&gt;
+<h4>$145 CAD</h4>
+<h4>sample code:</h4>
+&lt;h4&gt;$145 CAD&lt;/h4&gt;
+<h1 class="task">2. a paragraph</h1>
+<p>A family heirloom or your latest A&M purchase? Your friends will never know. The Rope Signet Ring in Silver is a combination of chunky and vintage in all the best ways. Wear with your other rings for that dripping-in-gold vibe, or alone for a *very* chic statement.</p>
+<h2>sample code:</h2>
+&lt;p &gt;A family heirloom or your latest A&M purchase? Your friends will never know. The Rope Signet Ring in Silver is a combination of chunky and vintage in all the best ways. Wear with your other rings for that dripping-in-gold vibe, or alone for a *very* chic statement.&lt;/p&gt;
+<h1 class="task">3. bulletted lists</h1>
+<ul>
+  <li>1mm thickness  </li>
+  <li>18.5mm total length</li>
+  <li>Clear CZ stone </li>
+</ul>
+<h2>sample code:</h2>
+&lt;ul&gt;  &lt;li &gt;1mm thickness &lt;/li&gt;
+&lt;li &gt;18.5mm total length &lt;/li&gt;
+&lt;li &gt;Clear CZ stone&lt;/li&gt;
+&lt;/ul&gt;
+<h1 class="task">4. Numbered lists</h1>
+<ol>
+  <li>Necklaces
+  </li>
+  <li>Earrings</li>
+  <li>Rings</li>
+</ol>
+<h2>sample code:</h2>
+&lt;ol&gt;  &lt;li &gt;Necklaces&lt;/li&gt;
+&lt;li &gt;Earrings &lt;/li&gt;
+&lt;li &gt;Rings&lt;/li&gt;
+&lt;/ol&gt;
+</section>
+
+
+
+
+<section id="ModularPatternElements">
+<h1 class="ModularPatternElements_list">3. Modular Pattern Elements:</h1>
+<h2 class="ModularPatternElements_list">1. main navigation module</h2>
+<div id="wholeModularPatternElements">
+  <div class="ModularPatternElements-header">
+    <nav class="ModularPatternElements-header_nav">
+      <a id="Melody_logo"  href="">Melody</a>
+      
+      <a   class="Melody_nav"  href="">Shop</a >
+      <a class="Melody_nav" href="">About</a >
+      <a class="Melody_nav" href="">Contact</a >
+    </nav>
+    <div class="ModularPatternElements-header_icon">
+      <div>
+        <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+      </div>
+      <div>
+        <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a >
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<h1>2. a product listing</h1>
+
+
+<div class="product_list">
+  <div class="list1">
+    <div>
+      <img class="list_img"  src="img/DoubleDiamondOpenRing.png" alt="this is Earrings_Rose.">
+    </div>
+    
+    <div class="text"><a href=""><h4>Earrings in Rose Gold</h4></a>  </div>
+    <p class="price"><a  href="">$45</a></p>
+  </div>
+  <div class="list2">
+    <div>
+      <img class="list_img" src="img/RopeChainNecklace.png" alt="Rope Chain Necklace" style="width: 45%;">
+    </div>
+
+    
+      <div class="text"><a href=""><h4>Rope Chain Necklace</h4></a>  </div>
+    <p class="price"><a  href="">$105</a></p>
+
+  </div>
+  <div class="list3">
+    <div>
+      <img class="list_img" src="img/2.0LargeSignetRing.png" alt="2.0 Large Signet Ring">
+    </div>
+    
+    <div class="text"><a href=""><h4>2.0 Large Signet Ring</h4></a>  </div>
+    <p class="price"><a  href="">$75</a></p>
+  </div>
+
+
+  <div class="list4">
+    <div>
+      <img  class="list_img" src="img/MysticDropGemHoops.png" alt="Mystic Drop Gem Hoop">
+    </div>
+    
+    <div class="text"><a href=""><h4>Mystic Drop Gem Hoop</h4></a>  </div>
+    <p class="price"><a  href="">$125</a></p>
+  </div>
+
+ </div>
+
+
+ <div class="product_list">
+  <div class="list1">
+    <div>
+      <img class="list_img"  src="img/FineBoxChain40cm.png" alt="Fine Box Chain 40cm">
+    </div>
+    
+    <div class="text"><a href=""><h4>Fine Box Chain 40cm</h4></a>  </div>
+    <p class="price"><a  href="">$115</a></p>
+  </div>
+  <div class="list2">
+    <div>
+      <img class="list_img" src="img/MysticSimpleHuggies.png" alt="Rope Chain Necklace" style="width: 45%;">
+    </div>
+
+    
+      <div class="text"><a href=""><h4>Rope Chain Necklace</h4></a>  </div>
+    <p class="price"><a  href="">$105</a></p>
+
+  </div>
+  <div class="list3">
+    <div>
+      <img class="list_img" src="img/S-PearlSignetRing.png" alt="2.0 Large Signet Ring">
+    </div>
+    
+    <div class="text"><a href=""><h4>Sweet Pearl Signet Ring</h4></a>  </div>
+    <p class="price"><a  href="">$73</a></p>
+  </div>
+
+
+  <div class="list4">
+    <div>
+      <img  class="list_img" src="img/KnotStudEarringsinSilver.png" alt="Knot Stud Earrings in Silver">
+    </div>
+    
+    <div class="text"><a href=""><h4>Knot Stud Earrings in Silver</h4></a>  </div>
+    <p class="price"><a  href="">$62</a></p>
+  </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="ModularPatternElements_list">3. website grid structure</h2>
+ <div class="grid_structure">
+  <div class="space1">grid1</div>
+  <div class="space2">grid2</div>
+  <div class="space3">grid3</div>
+  <div class="space4">grid4</div>
+ </div>
+
+ <h2 class="ModularPatternElements_list">4. one other module (Product Review form)</h2>
+
+
+  <div class="Product_Review_form">
+  <div class="detail_project">
+    <h2>Mystic Simple Huggies</h2>
+    <h3>Description</h3>
+    <p>The everyday earring essential that every girl needs. The Mystic Dreams simple huggies are made from sterling silver so you literally will never want to take them out. The tiny earrings hug tightly around the earlobes, perfect if you want to stack with more huggies, studs or ear cuffs.</p>
+
+
+    <h3 class="detail_price"> 145 CAD</h3>
+    <button  class="add_button"  type="button" >Add to Cart</button>
+
+  </div>
+
+
+  <div class="img_product">
+
+
+
+  </div>
+
+
+ </div>
+
+ <div class="reviewPart">
+
+  
+    <h3 >Customer Reviews</h3>
+  
+    <div>
+
+
+    <h4>Jade Armstrong:</h4>
+
+
+
+   
+    <h3>One of my favourites not over the top but nice sparkle. Earrings came in lovely packaging and really high quality! I am so impressed with the huggies, the clasp isn’t as dainty as it looks and i am confident they won’t come undone. They fit lovely round your love and are so comfy to wear.</h3>
+    </div>
+
+    <div>
+
+      <h4>Paula Ghazai:</h4>
+    <h3>bought earrings which fell out within a week of wearing them (even though fastened with the click clasp)  and then after repurchasing a new pair to replace this pair i noticed one of the new earrings was also faulty and didn't clasp closed properly. which for the price is awful. id stay away from the products from this company. pretty but quite frankly not fit for purpose. <a href="">More</a>  </h3>
+      
+    </div>
+
+
+      <div>
+
+      <h4>Trusted Customer:</h4>
+    <h3>1 oorbel van de 2 is vervormd, ik krijg deze niet meer in mijn oor. De oorbel is precies gebogen  </h3>
+      
+    </div>
+
+     <div>
+
+      <h4>Nazz h :</h4>
+    <h3>Very neat and secure huggies. Some huggies I have purchased elsewhere have unfortunately fallen off my ears so was impressed with these ones. Originally, I wanted the gold ones which had sold out but I absolutely love these rose gold ones which actually complement my other other jewellery more. </h3>
+      
+    </div>
+
+    <h3><a href="">More</a></h3>
+<div class="comments">
+  <p>Have a question? Any comments?</p>
+  <!-- <label for="emailInput">Email:</label> -->
+<!-- <input type="text" id="emailInput" name="emailInput">
+
+ -->
+
+ <input type="text" id="comments" name="comments">
+
+
+</div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+</body>
+</html>
