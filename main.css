@@ -1,0 +1,664 @@
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    
+    background-color: #F8F8F8;
+    padding: 0;
+}
+
+.main_header {
+    background-color: #F9D1CE;
+}
+
+.main_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.main_header nav a {
+    text-decoration: none;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.6s;
+    flex-basis: 20%;
+}
+
+.main_nav nav a {
+    text-decoration: none;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    flex-basis: 20%;
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.6s;
+}
+
+.main_header nav a:hover {
+    color: #EBCA94;
+    background-color: white;
+   
+}
+
+.main_nav nav a:hover {
+    color: #EBCA94;
+    background-color: white;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#BasicInteractiveElements {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#BasicInteractiveElements a {
+    color: black;
+}
+
+
+.ciation_reference {
+    margin-left: 1em;
+}
+
+.inText {
+    text-decoration: none;
+}
+
+.inText:hover {
+    color: #EBCA94;
+}
+
+
+.add_button {
+    background-color: #FDFBFB;
+    font-size: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: #272727;    
+    border-radius: 15px;
+    outline: none;
+}
+
+
+
+.add_button:hover {
+    color: #EBCA94;
+    border: 2px solid #EBCA94;
+}
+
+
+
+
+
+.submit_button {
+    background-color: white;
+    font-size: 16px;
+    color: #272727;       /*black*/
+    padding-left: 2em;
+    padding-right: 2em;
+    border-color: #272727;    
+    border-radius: 15px;
+    outline: none;
+}
+
+.submit_button:hover {
+    color: #EBCA94;
+    border: 2px solid #EBCA94;
+}
+
+
+#emailInput {
+    outline: none;
+    border-color: black;
+    border: 1px solid black;   
+    padding-right: 4em;
+    font-size: 16px;
+
+}
+
+.TextStyling{
+    margin-left: 1em;
+}
+
+
+.colour_swatches1{
+    background-color: #EBCA94;
+    color: black;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+
+
+.colour_swatches4{
+    background-color: #FEEBEB;
+    color: black;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+
+.colour_swatches2{
+     background-color: #FFFFFF;
+    color: black;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+
+}
+
+.colour_swatches3{
+     background-color: #000000;
+    color: white;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+
+}
+
+#TextStyling{
+    margin-left: 1em;
+
+}
+
+#logo{
+    color:#EBCA94;
+}
+#TextStyling p{
+    width: 40%;
+}
+.task{
+    margin-top: 2em;
+}
+
+
+
+
+
+section{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+ .ModularPatternElements-header_nav{
+
+  display:flex;
+  justify-content: flex-start;
+ 
+  font-size: 18px;
+
+   align-items: center;
+
+ }
+
+
+  .ModularPatternElements-header{
+    background-color:#FEEBEB;
+  display:flex;
+  justify-content: space-between;
+
+ }
+
+ .ModularPatternElements-header_icon i{
+
+  border-radius: 50%;
+    font-size:15pt;
+  padding:0.5em;
+ }
+
+ .ModularPatternElements-header_icon{
+  flex-basis:20%;
+  flex-grow: 1;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+
+ .ModularPatternElements-header_icon div{
+ 
+  margin-left: 1em;
+  margin-right: 1em;
+ }
+
+.ModularPatternElements-header_icon div a{
+
+  text-decoration:none;
+   color:black;
+ }
+
+.ModularPatternElements-header_nav a{
+  color:black;
+  text-decoration:none;
+  padding:0.5em 0.5em;
+
+ }
+
+.Melody_nav:hover{
+  color:#EBCA94;
+
+ }
+
+
+
+
+ #Melody_logo{
+    font-size: 24px;
+    color: #EBCA94;
+
+ }
+
+
+
+
+#wholeModularPatternElements{
+    background-color: white;
+}
+
+
+
+
+.grid_structure{
+  display:flex;
+ }
+ .grid_structure div{
+   margin:2em;
+
+  height:120px;
+  
+   background-color: #F9D1CE;
+   text-align: center;
+   padding-top: 3em;
+   flex-basis:25%;
+ }
+
+
+
+
+.individual_img div a {
+    text-decoration: none;
+}
+
+
+
+
+.individual_img div h4{
+
+    flex-direction: column;
+}
+
+.individual_img img:hover{
+   
+    transform: scale(1.1);
+
+}
+
+
+
+.individual_img img{
+    transition: all 0.6s;
+}
+
+.individual_img  div a :hover{
+ 
+    color: #F2A83D;
+}
+
+
+
+
+
+
+
+
+.individual_img{
+    width: 40%;
+  }
+
+  .img_list{
+    display: flex;
+    justify-content: center;
+  }
+
+    .individual_img{
+         flex-basis: 25%;
+        display: flex;
+
+    }
+
+
+
+    .Product_Review_form{
+  display:flex;
+  background-color: white;
+ }
+
+ .Product_Review_form div{
+ 
+  height:600px;
+   
+  margin:5%;
+
+  flex-basis:50%;
+ }
+
+ .img_product img{
+  width: 50%;
+   
+
+ }
+
+ .img_product{
+    background-image: url("img/MysticSimpleHuggies.png");
+    background-size: cover;
+ }
+
+ .detail_project h2{
+    text-align: center;
+    padding-top: 3em;
+
+ }
+
+  .detail_project h3{
+  
+    padding-top: 3em;
+
+
+  }
+
+
+    .reviewPart div h4{
+   
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .reviewPart div label{
+      margin-left:  20%;
+    }
+
+      .reviewPart div input{
+      margin-left: 20%;
+      padding-right: 40%;
+      /*padding-top: 20%;*/
+      /*padding-right: 30%;*/
+    }
+      .reviewPart div p{
+        margin-left: 20%;
+      }
+
+
+#comments {
+    outline: none;
+    border-color: black;
+    border: 1px solid black;   
+    padding-right: 50%;
+    font-size: 16px;
+    border-left: white;
+    border-right: white;
+    border-top:white;
+
+
+}
+
+
+
+
+
+
+        .reviewPart div h3{
+        
+        margin-left: 20%;
+        text-align: left;
+        margin-right: 20%;
+        margin-top: -1%;
+    }
+
+
+  .reviewPart h3{
+    text-align: center;
+
+  }
+
+  .reviewPart h4{
+   padding-right: 6em;
+  }
+
+
+       .reviewPart div h3 a{
+        color: black;
+        font-size: 12px;
+    }
+
+      .reviewPart div h3 a:hover{
+        color: #EBCA94;
+        
+    }
+
+    .reviewPart h3 a{
+        color: black;
+    }
+
+     .reviewPart h3 a:hover{
+        color: #EBCA94;
+    }
+
+
+    .reviewPart{
+        background-color: white;
+        padding-top: 1%;
+    }
+
+
+.wireframe_h1{
+    margin-top: 1em;
+}
+
+.wireframe_body{
+    margin-left: 1em;
+}
+
+.tasks{
+    margin-top: 6em;
+}
+
+
+#BasicInteractiveElements a:hover{
+    color: #EBCA94;
+  
+
+
+}
+
+
+
+
+
+.product_list{
+  display:flex;
+  justify-content: center;
+  margin-top:3em;
+  text-align:center;
+}
+
+
+.sitemap_img{
+  width: 100%;
+}
+
+
+
+.individual_img div a {
+    text-decoration: none;
+}
+
+
+
+
+.individual_img div h4{
+
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/*
+.individual_img{
+    width: 45%;
+  }*/
+
+
+.list_img{
+  width: 45%;
+}
+
+.text a:hover{
+  color: #EBCA94;
+
+}
+
+.text a{
+  color: #272727;
+  text-decoration: none;
+}
+
+
+.list_img:hover{
+   
+    transform: scale(1.1);
+
+}
+
+
+
+.list_img{
+    transition: all 0.6s;
+}
+
+
+.price a {
+  text-decoration: none;
+  color: #272727
+
+}
+
+.price a:hover{
+  color: #EBCA94;
+
+}
+
+.list_img2{
+  width: 50%;
+}
+
+.fa:hover{
+  color: #EBCA94;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .main_header {
+        flex-direction: column;
+    }
+      .ModularPatternElements-header{
+   flex-direction: column;
+  }
+
+
+
+  
+
+  .individual_img img{
+    flex-basis: 25%;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:300px) {
+
+        .main_header nav {
+            flex-direction: column;
+        }
+
+        .main_header nav a {
+            width: 100%;
+            text-align: center;
+        }
+
+         .ModularPatternElements-header nav{
+   flex-direction: column;
+  }
+  .ModularPatternElements-header nav a{
+   width:100%;
+   text-align:center;
+  }
+    }
